@@ -2,7 +2,7 @@
 
 With the increasing popularity of self driving cars and driving assistance systems the need for applications which perform Traffic Sign Recognition is ever increasing, with the help of this project the aim is to train a Convolutional Neural Network (CNN) for Traffic Sign Recognition using keras library. The model implementation will be done using images from the GTSRB - German Traffic Sign Recognition Benchmark dataset. The possibilities of a traffic sign recognition system are endless with its integration in driving systems, pedestrian assistance and an educative way to make the public aware of the various traffic signs.
 
-Let us dive into the specifics of this project, the implementation can be vieweed as four sections:
+Let us dive into the specifics of this project, the implementation can be divided into four sections:
 1. Dataset
 2. CNN model
 3. Methodology
@@ -26,7 +26,7 @@ Some sample images from the dataset are:
 
 ## CNN model
 
-A type of feed-forward neural network is called a convolutional network, CNN. A CNN analyses visual images by processing data in a grid-like architecture. It is also referred to as a ConvNet. To find and categorise items in an image, a convolutional neural network is employed and also makes it its main usecase.
+One of the types of feed-forward neural network is a convolutional network, CNN. A CNN analyses visual images by processing data in a grid-like architecture. It is also referred to as a ConvNet. To find and categorise items in an image, a convolutional neural network is employed and also makes it its main usecase.
 There are different layers used in a CNN like:
 - pooling
 - dense 
