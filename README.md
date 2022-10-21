@@ -1,8 +1,8 @@
 # Traffic-Sign-Recognition using CNN
 
-With the increasing popularity of self driving cars and driving assistance systems the need for applications which perform Traffic Sign Recognition is ever increasing, with the help of this project the aim is to train a Convolutional Neural Network (CNN) for Traffic Sign Recognition using keras library. The model implementation will be done using images from the GTSRB - German Traffic Sign Recognition Benchmark dataset. The possibilities of a traffic sign recognition system are endless with its integration in driving systems, pedestrian assistance and an educative way to make the public aware of the various traffic signs.
+With the increasing popularity of self-driving cars and driving assistance systems, the need for applications that perform Traffic Sign Recognition is ever-increasing. With the help of this project, the aim is to train a Convolutional Neural Network (CNN) for Traffic Sign Recognition using the Keras library. The model implementation will be done using images from the GTSRB - German Traffic Sign Recognition Benchmark dataset. The possibilities of a traffic sign recognition system are endless with its integration into driving systems, pedestrian assistance, and an educative way to make the public aware of the various traffic signs.
 
-Let us dive into the specifics of this project, the implementation can be divided into four sections:
+Let us dive into the specifics of this project. The implementation can be divided into four sections:
 1. Dataset
 2. CNN model
 3. Methodology
@@ -10,9 +10,9 @@ Let us dive into the specifics of this project, the implementation can be divide
 
 ## Dataset
 
-As mentioned above the dataset used is GTSRB - German Traffic Sign Recognition Benchmark dataset. [link](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign)
+As mentioned above, the dataset used is GTSRB - German Traffic Sign Recognition Benchmark dataset. [link](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign)
 The dataset has the following properties:
-- Single-image, multi-class classification problem
+- Single-image, the multi-class classification problem
 - More than 40 classes
 - More than 50,000 images in total
 - Large, lifelike database
@@ -26,7 +26,7 @@ Some sample images from the dataset are:
 
 ## CNN model
 
-One of the types of feed-forward neural network is a convolutional network, CNN. A CNN analyses visual images by processing data in a grid-like architecture. It is also referred to as a ConvNet. To find and categorise items in an image, a convolutional neural network is employed and also makes it its main usecase.
+One type of feed-forward neural network is a convolutional network, CNN. A CNN analyses visual images by processing data in a grid-like architecture. It is also referred to as a ConvNet. A convolutional neural network is employed to find and categorize items in an image and make it its primary use case.
 There are different layers used in a CNN like:
 - pooling
 - dense 
@@ -34,7 +34,7 @@ There are different layers used in a CNN like:
 - conv
 - dropout
 
-The CNN model used in the implementation of this project uses the following layers are as described in the following two images:
+The CNN model used in the implementation of this project uses the following layers as described in the following two images:
  1. Model Summary
 <p align="center">
     <img src="model summary.png">
